@@ -62,16 +62,13 @@ ul {
   margin-left: 93px;
 }
 .navigation-item {
-  position: relative;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.143;
   margin-right: 46px;
+  position: relative;
 }
-.navigation-item::after {
-  color: var(--main-color);
-}
-.after1::after {
+.navigation-item-active::after {
   position: absolute;
   width: 53px;
   height: 4px;
@@ -81,16 +78,8 @@ ul {
   content: "";
   border-radius: 2px;
 }
-.after2::after {
-  position: absolute;
-  width: 53px;
-  height: 4px;
-  left: 0;
-  top: 45px;
+.navigation-item-active {
   color: var(--hover-color);
-  background: #2196f3;
-  content: "";
-  border-radius: 2px;
 }
 .menu-links {
   font-size: 14px;
