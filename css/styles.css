@@ -53,10 +53,12 @@ ul {
 .header {
   width: 1600px;
 }
+.header-border {
+  border-bottom: 1px solid #ececec;
+}
 .menu {
   justify-content: flex-start;
   background-color: #ffffff;
-  border-bottom: 1px solid #ececec;
 }
 .navigation {
   margin-left: 93px;
